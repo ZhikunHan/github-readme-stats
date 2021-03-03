@@ -26,7 +26,7 @@ _(make sure you already have a [vercel](https://vercel.com/) account)_
 1. Fork the repository and clone the code to your local machine
 1. Run the command "vercel" in the root and follow the steps there
 1. Create a `.env` file in the root of the directory
-1. In the .env file add a new variable named "PAT" with your [github Personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+1. In the .env file add a new variable named "PAT_1" with your [github Personal access token](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 1. Run the command "vercel dev" to start a development server at https://localhost:3000
 
 ## Themes Contribution
@@ -46,6 +46,31 @@ In short, when you submit changes, your submissions are understood to be under t
 ## Report issues/bugs using GitHub's [issues](https://github.com/anuraghazra/github-readme-stats/issues)
 
 We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/anuraghazra/github-readme-stats/issues/new/choose); it's that easy!
+
+## Frequently Asked Questions (FAQs)
+
+**Q:** How to hide jupyter Notebook?
+
+> **Ans:** &hide=jupyter%20notebook
+
+**Q:** I could not figure out how to deploy on my own vercel instance
+
+> **Ans:**
+>
+> - docs: https://github.com/anuraghazra/github-readme-stats/#deploy-on-your-own-vercel-instance
+> - YT tutorial by codeSTACKr: https://www.youtube.com/watch?v=n6d4KHSKqGk&feature=youtu.be&t=107
+
+**Q:** Language Card is incorrect
+
+> **Ans:** Please read all the related issues / comments before opening any issues regarding language card stats:
+>
+> - https://github.com/anuraghazra/github-readme-stats/issues/136#issuecomment-665164174
+>
+> - https://github.com/anuraghazra/github-readme-stats/issues/136#issuecomment-665172181
+
+**Q:** How to count private stats?
+
+> **Ans:** We can only count private commits & we cannot access any other private info of any users, so it's not possible. only way is to deploy on your own instance & use your own PAT (Personal Access Token)
 
 ### Bug Reports
 
